@@ -4,7 +4,7 @@ import '../styles/footer.css';
 function Footer() {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="fixed-bottom">
+        <footer className="fixed-bottom text-center">
             <p>&copy; {currentYear} ProgrammerQ. All rights reserved.</p>
         </footer>
     );
