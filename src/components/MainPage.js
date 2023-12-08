@@ -1,20 +1,16 @@
 import React from 'react';
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import DarkLightToggle from './DarkLightToggle';
 import DailyProgrammerPage from './DailyProgrammerPage';
 import Footer from './Footer';
+import LoginButton from './LoginButton'; // Import the LoginButton component
 
 function MainPage() {
     return (
         <>
             <DarkLightToggle />
             <DailyProgrammerPage />
-            <Container>
-                {/* Your content goes here */}
-            </Container>
-            <Button variant="outline-warning" className="btn-login position-fixed top-0 end-0 m-4">
-                Login
-            </Button>
+            <LoginButton />
             <Footer />
         </>
     );
